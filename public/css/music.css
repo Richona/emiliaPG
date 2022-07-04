@@ -1,0 +1,57 @@
+.music{
+    text-align: center;
+
+    background-color: black;
+    background-image: url("/images/notas-musicales.jpg");
+    background-repeat: repeat-y;
+    background-size: 100%;
+
+}
+.music h1{
+    padding: 20px 0;
+
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #6AAD9D;
+}
+.music__section__article__videos{
+    transition: box-shadow 0.3s ease;
+
+    display: inline-block;
+
+    background-color: #f0f0f0;
+    border-radius: 0.5rem;
+
+    width: 50%;
+    margin: 40px 0;
+    cursor: pointer;
+}
+.music__section__article__videos:hover{
+    box-shadow: 0.4rem 0.6rem 0.9rem rgba(241, 234, 234, 0.6);
+}
+.music__section__article__videos iframe, .music__section__article__videos div img{
+    width: 95%;
+}
+.music__section__article__videos ol li i{
+    transition: color 0.3s ease;
+    color:#000;
+    text-decoration: none;
+}
+.music__section__article__videos ol li i:hover{
+    color: red;
+}
+.music__section__article__videos nav a{
+    transition: color 0.3s ease;
+    color:#000;
+    text-decoration: none;
+}
+.music__section__article__videos nav a:hover{
+    color: cornflowerblue;
+}
+.music__section__article__videos .esteEsPa a{
+    transition: color 0.3s ease;
+    color:#000;
+    text-decoration: none;
+}
+.music__section__article__videos .esteEsPa a:hover{
+    color: cornflowerblue;
+}
